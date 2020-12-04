@@ -5,7 +5,7 @@ html {
 }
 
 header{
-	background: url(../images/bg.jpg);
+	background: url(../images/bg-header.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -456,7 +456,7 @@ a:hover,a:active,a:focus{
 =========================================*/
 
 #testimonial {
-    background: url(../images/bg-small.png);
+    background: url(../images/bg-testimonial.jpg);
     padding: 80px 0px 80px 0px;
     color: #fff;
     background-repeat: no-repeat;
