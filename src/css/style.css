@@ -4,21 +4,13 @@ html {
     color: #ffffff
 }
 
-header{
+.bg-header{
 	background: url(../images/bg-header.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
-    background-position: center center;  
+    background-position: center;
 }
-
-/*@media (min-width: 300px) {
-header {
-    background: url(../images/bg-small.png);
-    background-size: cover;
-    background-repeat: repeat-y;
-}
-}*/
 
 body {
     font-family:   'JetBrains Mono', monospace;
@@ -145,7 +137,7 @@ a:hover,a:active,a:focus{
     font-size: 4em;
     position: absolute;
     bottom: 10%;
-    left: 49%;
+    left: 45%;
 }
 .scrollDown:hover{
 	transition: 0.4s ease all;
