@@ -451,8 +451,16 @@ a:hover,a:active,a:focus{
     color: #fff;
     background-attachment: fixed;
     background-size: cover;
+    
 }
 
+@media (min-width: 300px) {
+#testimonial {
+    background: url(../images/bg-small.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+}
 .testimonila-block {
     text-align: center;
 }
