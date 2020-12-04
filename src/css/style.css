@@ -4,6 +4,12 @@ html {
     color: #ffffff
 }
 
+header{
+	background: url(../images/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
 body {
     font-family:   'JetBrains Mono', monospace;
     background-color: #111;
@@ -117,15 +123,9 @@ a:hover,a:active,a:focus{
 }
 
 /*=========================================
-              Header
+              ScrollDown
 =========================================*/
 
-header{
-	background: url(../images/bg2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;    
-}
 .center {
     text-align: center;
     color: #fff;
