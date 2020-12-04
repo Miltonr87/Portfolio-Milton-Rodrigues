@@ -121,8 +121,10 @@ a:hover,a:active,a:focus{
 =========================================*/
 
 header{
-	background: url(../images/bg2.jpg) no-repeat;
-	background-size: cover;
+	background: url(../images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
 }
 .center {
     text-align: center;
@@ -229,6 +231,15 @@ header{
 .about-mf .about-img img {
   display: flex;
   justify-content: flex-start;
+  padding-bottom: 1em;
+}
+}
+
+@media (min-width: 300px) {
+.about-mf .about-img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
 }
 }
 
@@ -237,6 +248,10 @@ header{
     margin-top: 3rem;
     padding-left: 0rem;
   }
+}
+
+.skill-mf {
+    margin-bottom: 3em;
 }
 
 .skill-mf span {
