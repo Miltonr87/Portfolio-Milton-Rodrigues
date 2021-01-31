@@ -383,7 +383,7 @@ a:focus {
 }
 
 .port figcaption span:before {
-  content: "by ";
+  content: "Devices: ";
 }
 
 .port figcaption a {
@@ -462,48 +462,6 @@ a:focus {
 }
 
 /*=========================================
-              Testimonial
-=========================================*/
-
-#testimonial {
-  background: url(../images/bg-testimonial.jpg);
-  padding: 80px 0px 80px 0px;
-  color: #fff;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-
-/*@media (min-width: 300px) {
-#testimonial {
-    background: url(../images/bg-testimonial.jpg);
-    background-size: cover;
-    background-repeat: repeat-y;
-}
-}*/
-.testimonila-block {
-  text-align: center;
-}
-.testimonila-block img {
-  border-radius: 50%;
-  border: 1px solid #000;
-  max-width: 200px;
-  max-height: 200px;
-  margin-bottom: 30px;
-}
-.testimonila-block p {
-  max-width: 60%;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  font-style: italic;
-  font-size: 18px;
-}
-.testimonila-block strong {
-  font-size: 2em;
-}
-
-/*=========================================
               Contact Area
 =========================================*/
 
@@ -515,6 +473,17 @@ a:focus {
   width: 100%;
   position: relative;
   padding: 80px 0px 60px 0px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-contact {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .moreDetails {
@@ -548,18 +517,6 @@ a:focus {
   padding-bottom: 10px;
   position: relative;
   left: 30px;
-}
-.form-control {
-  box-shadow: none;
-  border: 1px solid #8e8e8e;
-  border-radius: 0px;
-  padding: 12px 12px;
-  height: auto;
-  background: rgba(255, 255, 255, 0.11);
-}
-.form-group input,
-.form-group textarea {
-  color: #fff;
 }
 
 /*=========================================
