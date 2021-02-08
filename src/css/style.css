@@ -48,6 +48,7 @@ a:focus {
   outline: none;
 }
 .btn {
+  margin-top: 20px;
   color: #fff;
   background: transparent;
   border: 1px solid #fff;
@@ -634,6 +635,9 @@ footer {
 }
 
 @media all and (max-width: 768px) {
+  iframe {
+    width: 80%;
+  }
   .experiences {
     max-width: 293px;
     height: 293px;
@@ -664,6 +668,7 @@ footer {
     top: 70%;
     left: 46%;
   }
+
 }
 @media all and (max-width: 380px) {
   .logo-text {
@@ -679,6 +684,7 @@ footer {
     width: 30px;
     height: 30px;
   }
+  
 }
 
 @media all and (max-width: 480px) {
