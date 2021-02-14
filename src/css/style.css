@@ -454,7 +454,6 @@ a:focus {
 }
 .btn-center {
   display: block;
-  padding: 80px 0px 60px 0px;
   text-align: center;
 }
 
@@ -470,7 +469,7 @@ a:focus {
   color: #fff;
 }
 
-#contact-area {
+.contact-area {
   width: 100%;
   position: relative;
   padding: 80px 0px 60px 0px;
