@@ -463,6 +463,10 @@ a:focus {
   margin-bottom: 30px;
 }
 
+.iframe {
+  width: 45%;
+}
+
 /*=========================================
               Contact Area
 =========================================*/
@@ -637,7 +641,7 @@ footer {
 }
 
 @media all and (max-width: 768px) {
-  iframe {
+  .iframe {
     width: 80%;
   }
   .experiences {
