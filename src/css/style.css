@@ -252,7 +252,7 @@ a:focus {
 }
 .styled-components {
   color: white;
-  width: 63px;
+  width: 60px;
   filter: invert(0%) sepia(89%) saturate(15%) hue-rotate(110deg) brightness(133%) contrast(111%);
 }
 @media (min-width: 767px) {
