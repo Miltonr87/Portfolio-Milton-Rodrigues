@@ -247,7 +247,7 @@ a:focus {
 =========================================*/
 
 .about-mf .box-shadow-full {
-  padding-top: 8rem;
+  padding-top: 10rem;
   padding-bottom: 4rem;
 }
 
@@ -271,7 +271,6 @@ a:focus {
   .about-mf .about-img {
     display: flex;
     justify-content: center;
-    padding-bottom: 3em;
   }
 }
 
