@@ -597,6 +597,12 @@ footer {
               Responsive
 =========================================*/
 
+@media (min-width: 750px) {
+  .featured-image {
+    width: 65%;
+  }
+}
+
 @media all and (min-width: 1400px) {
   .centered p {
     font-size: 3em;
