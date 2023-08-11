@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: "JetBrains Mono", monospace;
+  font-family: 'JetBrains Mono', monospace;
   background-color: #111;
 
   color: #ffffff;
@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rationale", sans-serif;
+  font-family: 'Rationale', sans-serif;
 }
 
 a {
@@ -71,7 +71,7 @@ a:focus {
 }
 .block_title:before,
 .block_title:after {
-  content: "";
+  content: '';
   background: #ccc;
   display: inline-block;
   height: 1px;
@@ -192,7 +192,7 @@ a:focus {
   font-size: 2.3em;
   padding: 0.2em 0;
   color: #fff;
-  font-family: "Rationale", sans-serif;
+  font-family: 'Rationale', sans-serif;
   font-weight: 100;
   display: table-cell;
   vertical-align: middle;
@@ -257,7 +257,8 @@ a:focus {
 .styled-components {
   color: white;
   width: 50px;
-  filter: invert(0%) sepia(89%) saturate(15%) hue-rotate(110deg) brightness(133%) contrast(111%);
+  filter: invert(0%) sepia(89%) saturate(15%) hue-rotate(110deg)
+    brightness(133%) contrast(111%);
 }
 @media (min-width: 767px) {
   .about-mf .about-img img {
@@ -339,7 +340,7 @@ a:focus {
 }
 
 .pe-7s-angle-down-circle:before {
-  content: "\e689";
+  content: '\e689';
   color: deepskyblue;
 }
 
@@ -394,7 +395,7 @@ a:focus {
 }
 
 .port figcaption span:before {
-  content: "Devices: ";
+  content: 'Devices: ';
 }
 
 .port figcaption a {
@@ -485,16 +486,16 @@ a:focus {
   position: relative;
   padding: 80px 0px 60px 0px;
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .row-contact {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .moreDetails {
@@ -685,7 +686,6 @@ footer {
     top: 70%;
     left: 46%;
   }
-
 }
 @media all and (max-width: 380px) {
   .logo-text {
@@ -701,7 +701,6 @@ footer {
     width: 30px;
     height: 30px;
   }
-  
 }
 
 @media all and (max-width: 480px) {
