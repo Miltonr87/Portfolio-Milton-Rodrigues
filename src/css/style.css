@@ -385,7 +385,10 @@ a:focus {
   left: 0;
   padding: 20px;
   background: black;
-  color: deepskyblue;
+  color: white;
+  border: 0.7px solid white;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .port figcaption h3 {
@@ -395,7 +398,7 @@ a:focus {
 }
 
 .port figcaption span:before {
-  content: 'Devices: ';
+  content: '';
 }
 
 .port figcaption a {
@@ -457,7 +460,7 @@ a:focus {
 }
 .button {
   background: transparent;
-  border: 1px solid deepskyblue;
+  border: 1px solid white;
 }
 .button:hover {
   background: #111;
