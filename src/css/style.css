@@ -460,11 +460,49 @@ a:focus {
 }
 .button {
   background: transparent;
-  border: 1px solid white;
+  border: 1px solid deepskyblue;
 }
 .button:hover {
   background: #111;
   color: deepskyblue;
+}
+button {
+  background-color: deepskyblue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: 'Rationale', sans-serif;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  background: rgba(60, 50, 110, 0.432);
+  border: 1px rgba(60, 50, 110, 0.432);
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+button:hover {
+  color: deepskyblue;
+}
+
+button:hover::before {
+  width: 100%;
 }
 .btn-center {
   display: block;
