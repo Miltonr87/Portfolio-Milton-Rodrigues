@@ -385,7 +385,7 @@ a:focus {
   left: 0;
   background: black;
   color: white;
-  border: 0.7px solid white;
+  border: 0.1px solid white;
   padding: 5px;
   border-radius: 5px;
 }
