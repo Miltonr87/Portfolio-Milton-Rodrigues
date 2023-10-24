@@ -574,6 +574,19 @@ button:hover::before {
   font-size: 1.5rem;
 }
 
+.form-control {
+  box-shadow: none;
+  border: 1px solid #8e8e8e;
+  border-radius: 0px;
+  padding: 12px 12px;
+  height: auto;
+  background: rgba(255, 255, 255, 0.11);
+}
+.form-group input,
+.form-group textarea {
+  color: #fff;
+}
+
 /*=========================================
               Social Media
 =========================================*/
